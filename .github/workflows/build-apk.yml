@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Unpack CRM project
-  run: unzip -q AdvokatCRM_Project.zip -d crm
+        run: unzip -q AdvokatCRM_Project.zip -d crm
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
